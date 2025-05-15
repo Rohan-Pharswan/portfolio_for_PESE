@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="Extra/icon.webp" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        body {
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 100vh;
+            overflow-x: hidden;
+            font-size: 62.5%;
+        }
+        
+        header {
+            margin-top: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 9%;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            color: #b74b4b;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+        
+        .logo:hover {
+            transform: scale(1.1);
+        }
+        
+        nav a {
+            font-size: 1.2rem;
+            color: white;
+            margin-left: 3rem;
+            font-weight: 500;
+            transition: 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+        
+        nav a:hover,
+        nav a.active {
+            color: #b74b4b;
+            border-bottom: 3px solid #b74b4b;
+        }
+        
+        @media(max-width: 995px) {
+            nav {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 40%;
+                background-color: black;
+                padding: 1rem;
+                display: none;
+                border-left: 3px solid #b74b4b;
+                border-bottom: 3px solid #b74b4b;
+                border-bottom-left-radius: 2rem;
+            }
+            
+            nav.active {
+                display: block;
+            }
+            
+            nav a {
+                display: block;
+                font-size: 1.8rem;
+                margin: 3rem 0;
+            }
+            
+            nav a:hover,
+            nav a.active {
+                padding: 1rem;
+                border-radius: 0.5rem;
+                border-bottom: 0.5rem solid #b74b4b;
+            }
+        }
+        
+        .project-section {
+            padding: 5rem 9%;
+            margin-top: 4rem;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .project-box {
+            font-size: 1rem;
+            background: rgba(34, 34, 34, 0.8);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid white;
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        video {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 2vw;
+        }
+        
+        .file-link {
+            color: #b74b4b;
+            font-size: 1rem;
+        }
+
+        h2{
+            color: #b74b4b;
+            font-size: 1rem;
+        }
+
+        h3{
+            margin-top: 1.3vw;
+        }
+
+        .ppt-box{
+            margin-top: 3vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Rohan</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="project.html" class="active">Projects</a>
+            <a href="intro.html">Introduction</a>
+            <a href="skill.html">Skills</a>
+            <a href="education.html">Education</a>
+        </nav>
+    </header>
+
+    <section class="project-section">
+        <div class="container">
+            <div class="project-box">
+                <h2>Project Resources</h2>
+                <div class="content">
+                    <div class="video-box">
+                        <h3>Video</h3>
+                        <iframe src="https://drive.google.com/file/d/1p_cugFn35K4ELTHhmEzOhq5f3LWPu3jk/preview" width="100%" height="480" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="project-box">
+                <h2>An E-Attendence System that uses Blockchain </h2>
+                <p>An electronic attendence system that uses blockchain to ensure tamper proof attendence information of students, professors and employees. It uses concepts of blockchain to securely store data into blocks that can't be changed externally, which makes it tamper proof, available for all and eliminate the need to make a seperate registery which can be easily changed by others</p>
+            </div>
+            <div class="project-box">
+                <h2>Additional Resources</h2>
+                <div class="content">
+                 <div class="ppt-box">
+                 <h3>PPT</h3>
+                <a href="https://docs.google.com/presentation/d/1T1AqUssA9ePozr-sClrXz2HXqZF4gVGW/edit?usp=sharing&ouid=107615401856445234130&rtpof=true&sd=true" class="file-link" target="_blank">
+                 🔥 View PPT (Google Slides)
+                </a>
+                </div>
+            <div class="pdf-box">
+        <h3>Research PDF</h3>
+        <a href="https://drive.google.com/file/d/1N-3dD2h6h5VtkgPvVm5JvYoSPH-zsK3R/view?usp=sharing" class="file-link" target="_blank">📄 View PDF (Google Drive)</a>
+
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

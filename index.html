@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="Extra/icon.webp" type="image/x-icon">
+    <title>Portfolio Website</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Rohan</a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav id="navMenu">
+            <a href="index.html" class="active">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="intro.html">Introduction</a>
+            <a href="skill.html">Skills</a>
+            <a href="education.html">Education</a>
+        </nav>
+    </header>
+    <section class="home">
+        
+        <div class="home-content">
+            <h1>Hi, It's <span>Rohan Pharswan</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I am currently pursuing my B.Tech in Computer Science Engineering at <b><span>Graphic Era Hill University</span></b>, Dehradun, and I am in my 2nd year of studies. <br>
+                I have a strong passion for technology and am always eager to learn new things. I enjoy exploring new ideas and taking on challenges that help me grow in my field.  
+                </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/rohan-pharswan/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/Rohan-Pharswan"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                <a href="https://leetcode.com/u/Rohan_pharswan/"><i class="fas fa-laptop-code" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/_rohan_8479?igsh=dmJ6ZHYxMjVpMTZi"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <a href="mailto:rohanpharswan11@gmail.com" class="btn">Contact Me</a>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+            document.getElementById("navMenu").classList.toggle("active");
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="Extra/icon.webp" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        body {
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 100vh;
+            overflow-x: hidden;
+            font-size: 62.5%;
+        }
+        
+        header {
+            margin-top: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 9%;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            color: #b74b4b;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+        
+        .logo:hover {
+            transform: scale(1.1);
+        }
+        
+        nav a {
+            font-size: 1.2rem;
+            color: white;
+            margin-left: 3rem;
+            font-weight: 500;
+            transition: 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+        
+        nav a:hover,
+        nav a.active {
+            color: #b74b4b;
+            border-bottom: 3px solid #b74b4b;
+        }
+        
+        .intro-section {
+            padding: 5rem 9%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .intro-box {
+            margin-top: 3rem;
+            background: rgba(34, 34, 34, 0.8);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid white;
+            max-width: 500px;
+            width: 100%;
+        }
+        
+        video {
+            margin-top: 3.5vw;
+            width: 60%;
+            border-radius: 10px;
+        }
+
+        h2{
+            color: #b74b4b;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Rohan</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="intro.html" class="active">Introduction</a>
+            <a href="skill.html">Skills</a>
+            <a href="education.html">Education</a>
+        </nav>
+    </header>
+
+    <section class="intro-section">
+        <div class="intro-box">
+            <h2>My Introduction Video</h2>
+            <iframe src="https://drive.google.com/file/d/1pRSZqR_Xg-qd-lKA-GMMkHjOrYOkcoVc/preview" width="100%" height="480" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
+</html>
